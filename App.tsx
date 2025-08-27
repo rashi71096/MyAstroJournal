@@ -5,7 +5,6 @@
  * @format
  */
 
-import { NewAppScreen } from '@react-native/new-app-screen';
 import { StatusBar, StyleSheet, useColorScheme, View, Text } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
