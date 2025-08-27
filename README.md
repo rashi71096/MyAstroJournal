@@ -48,6 +48,31 @@ A beautiful React Native mobile journal app that combines daily horoscopes with 
    npm run android
    ```
 
+## Android Build Steps (Complete Clean Build)
+
+If you need to perform a complete clean build for Android:
+
+1. **Clean build directories**:
+   ```bash
+   # Remove Android build directory
+   cd android && ./gradlew clean && cd ..
+   ```
+
+2. **Reinstall dependencies**:
+   ```bash
+   # Install npm packages
+   npm install
+   ```
+
+3. **Build and run**:
+   ```bash
+   # Start Metro bundler
+   npm start
+   
+   # In a new terminal, run Android app
+   npm run android
+   ```
+
 ## iOS Build Steps (Complete Clean Build)
 
 If you need to perform a complete clean build for iOS:
